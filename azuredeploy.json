@@ -216,9 +216,9 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/mongodb-on-centos/mongo-install-centos.sh"
+            "https://raw.githubusercontent.com/duffyco/nginx-on-centos/master/nginx-install-centos.sh"
           ],
-          "commandToExecute": "sh mongo-install-centos.sh"
+          "commandToExecute": "sh nginx-install-centos.sh"
         }
       }
     }
