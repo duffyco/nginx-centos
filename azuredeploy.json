@@ -85,11 +85,11 @@
     }
   },
   "variables": {
-    "addressPrefix": "10.2.0.0/16",
+    "addressPrefix": "10.0.0.0/16",
     "subnet1Name": "Subnet-1",
     "subnet2Name": "Subnet-2",
-    "subnet1Prefix": "10.2.0.0/24",
-    "subnet2Prefix": "10.2.1.0/24",
+    "subnet1Prefix": "10.0.0.0/24",
+    "subnet2Prefix": "10.0.1.0/24",
     "vmStorageAccountContainerName": "vhds",
     "publicIPAddressType": "Dynamic",
     "storageAccountType": "Standard_LRS",
@@ -216,7 +216,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/duffyco/nginx-on-centos/master/nginx-install-centos.sh"
+            "https://raw.githubusercontent.com/duffyco/nginx-centos/master/nginx-install-centos.sh"
           ],
           "commandToExecute": "sh nginx-install-centos.sh"
         }
